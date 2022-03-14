@@ -1,5 +1,5 @@
 # "NodeTexture Viewer" Blender Addon.
-# Copyright (C) 2021, Rodrigo Gama, Kuimi 3D
+# Copyright (C) 2021, Rodrigo Gama
 #
 # ##### BEGIN GPL LICENSE BLOCK #####
 #
@@ -21,13 +21,13 @@
 
 bl_info = {
     "name": "NodeTexture Viewer",
-    "author": "Rodrigo Gama, Kuimi3D",
+    "author": "Rodrigo Gama",
     "version": (1, 0, 0),
-    "blender": (2, 92, 0),
+    "blender": (3, 1, 0),
     "location": "Image Editor Header",
     "description": "Simply Opens Selected Texture in Image Editor",
-    "wiki_url": "https://help.kuimi3d.com/docs/nodetexture-viewer/",
-    "tracker_url": "https://help.kuimi3d.com/bug-report/",
+    "wiki_url": "https://help.cgoutset.com/docs/nodetexture-viewer/",
+    "tracker_url": "https://help.cgoutset.com/bug-report/",
     "category": "Interface"}
 
 import bpy
