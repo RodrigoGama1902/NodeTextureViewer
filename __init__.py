@@ -83,7 +83,6 @@ class Open_Selected_Node(bpy.types.Operator):
         
         return {"FINISHED"}
 
-
 def draw(self, context):
     self.layout.separator()
     self.layout.operator(Open_Selected_Node.bl_idname,text='Selected Node',icon='NODE_TEXTURE')
